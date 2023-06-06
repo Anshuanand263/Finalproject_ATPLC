@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#maincontent {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 300px auto;
+    gap: 7px;
+}
+
+#menu {
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    transition-property: background-color;
+    cursor: pointer;
+    transition-duration: .5s;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: rgb(174, 72, 72);
+}
+
+#menu a img {
+    height: 38px;
+
+}
+
+#foodcard {
+
+    border-left: 2px black solid;
+}
+
+#foodcard div {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#foodcard div a:hover {
+    transform: scale(1.2);
+    transition-duration: .5s;
+}
+
+#foodcard div a img {
+    height: 130px;
+    width: 220px;
+    border-radius: 20px;
+}
+
+#foodcard div a li {
+    list-style-type: '*';
+    color: white;
+    background-color: green;
+    border-radius: 40px;
+
+
+}
+
+.foodcard-popup {
+    position: absolute;
+
+    width: 300px;
+    height: auto;
+    background: rgb(226, 212, 185);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    display: none;
+
+
+
+
+}
+
+.foodcard-popup img {
+    height: 200px;
+    width: 200px;
+    pointer-events: none;
+
+}
+
+.foodcard-popup ul li {
+    border-bottom: 1px solid black;
+    list-style-type: none;
+}
+
+.addcart {
+    width: 30px;
+    cursor: pointer;
+}
+
+.addcart:hover {
+    background-color: crimson;
+}
+
+
+
+
+.close-btn:hover,
+.close-btn1:hover {
+
+    background-color: red;
+}
+
+
+
+.card {
+    background-color: white;
+
+
+
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-popup {
+    position: absolute;
+
+    width: 98%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.menu-popup img {
+    height: 150px;
+    width: 200px;
+    pointer-events: none;
+    border-radius: 15px;
+
+}
+
+
+
+.menu-popup div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div2 {
+
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 150px;
+
+    font-size: xx-large;
+
+}
+
+.div2 p {
+
+    border-top: 2px solid black;
+
+}
+
+.popup-cart {
+    display: none;
+    margin-left: 45%;
+    margin-top: 25%;
+    background-color: rgb(177, 202, 203);
+    position: absolute;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: auto;
+}
+
+.footer {
+    margin-top: 20px;
+    background: #000;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+
+.material-symbols-outlined {
+    cursor: pointer;
+}
+
+@media (max-width:720px) {
+
+    nav {
+        display: inline-flex;
+
+        width: 100%;
+
+
+    }
+
+    nav img {
+        height: 40px;
+        width: 50px;
+
+    }
+
+    nav a {
+
+
+        margin: 20px 10px;
+        border-radius: 2px;
+
+
+    }
+
+
+
+
+    #maincontent {
+
+
+
+        display: block;
+        grid-template-columns: none;
+
+
+    }
+
+    #menu {
+
+
+        height: auto;
+
+
+    }
+
+    #menu div {
+
+        font-size: 18px;
+
+    }
+
+
+
+    #menu div img {
+        height: 25px;
+
+    }
+
+    #foodcard {
+
+        border-left: none;
+    }
+
+    #foodcard div {
+
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    #foodcard div a:hover {
+        transform: scale(1.1);
+        transition-duration: .5s;
+    }
+
+    #foodcard div a img {
+        height: 100px;
+        width: 180px;
+        border-radius: 18px;
+    }
+
+
+
+    .foodcard-popup {
+        position: absolute;
+
+        width: 100%;
+        height: auto;
+        background: white;
+        backdrop-filter: blur(20px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        border-top: #000 2px solid;
+
+
+    }
+
+    .foodcard-popup img {
+        height: 150px;
+        width: 180px;
+        border-radius: 20px;
+        pointer-events: none;
+
+    }
+
+
+
+
+
+    .menu-popup {
+        position: absolute;
+
+
+        height: auto;
+
+    }
+
+    .menu-popup img {
+        height: 130px;
+        width: 180px;
+        pointer-events: none;
+        border-radius: 15px;
+        margin-left: 45px;
+    }
+
+
+
+    .menu-popup div {
+        width: min-content;
+
+    }
+
+    .div2 {
+
+        position: absolute;
+        margin-left: 230px;
+        margin-top: 150px;
+
+        font-size: large;
+
+    }
+
+    .div2 p {
+
+        border-top: 2px solid black;
+
+    }
+
+    .popup-cart {
+        display: none;
+        margin-left: 5%;
+        margin-top: 1%;
+        background-color: rgb(177, 202, 203);
+        position: absolute;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: auto;
+    }
+
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+}
