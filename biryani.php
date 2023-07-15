@@ -100,7 +100,9 @@
             <button class="placebutton"> Place Order</button>
             <button type="button" class="close-btn2">close</button>
         </form>
-
+        <?php
+        include "foooter.php";
+        ?>
         <script src="scripts/javascript1.js"></script>
 </body>
 

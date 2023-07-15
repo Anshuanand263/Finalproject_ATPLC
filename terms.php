@@ -8,9 +8,9 @@
     <title>terms and condition</title>
     <style>
         * {
-            background-image: url('https://th.bing.com/th/id/OIP.m9chmEy-x55aJAXRiU0DbgHaEo?w=316&h=197&c=7&r=0&o=5&pid=1.7');
+            /* background-image: url('https://th.bing.com/th/id/OIP.m9chmEy-x55aJAXRiU0DbgHaEo?w=316&h=197&c=7&r=0&o=5&pid=1.7'); */
             background-size: cover;
-            color: aliceblue;
+            color: black;
         }
 
         h2 {
@@ -50,6 +50,9 @@
         Courier complies with these SC, Borzo India grants the Courier a personal, non-exclusive, non-transferable,
         limited privilege to enter and use Borzo Services and to render the Courier Services in and/or from within the
         Territory to and for the benefit of the Clients.</p>
+    <?php
+    include "foooter.php";
+    ?>
 </body>
 
 </html>

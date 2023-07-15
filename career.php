@@ -18,7 +18,9 @@
     <?php
     include "nav.php";
     ?>
-
+    <?php
+    include "foooter.php";
+    ?>
 </body>
 
 </html>

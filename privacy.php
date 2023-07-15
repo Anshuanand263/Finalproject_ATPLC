@@ -132,7 +132,9 @@
         All other capitalised terms as used in this Privacy Policy shall have the meaning so assigned to them in the
         Terms.
     </p>
-
+    <?php
+    include "foooter.php";
+    ?>
 </body>
 
 </html>

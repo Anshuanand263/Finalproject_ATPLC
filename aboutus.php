@@ -80,7 +80,7 @@
     <?php
     include "nav.php";
     ?>
-    <div class="top"><img src="images/about.jpeg"></div>
+
 
     <div class="head">
         <div>
@@ -135,6 +135,9 @@
             </div>
         </div>
     </div>
+    <!-- <?php
+    include "foooter.php";
+    ?> -->
 </body>
 
 </html>

@@ -264,29 +264,9 @@
 
     </section>
 
-    <div class="footer">
-        <div class="row">
-
-            <a href="https://instagram.com/anshu_romeo?igshid=ZDdkNTZiNTM="><i class="fa fa-instagram"></i></a>
-            <a class="material-symbols-outlined">
-                mail
-            </a>
-        </div>
-
-        <div class="row">
-            <ul>
-
-                <li><a href="privacy.php">Privacy Policy</a></li>
-                <li><a href="terms.php">Terms & Conditions</a></li>
-                <li><a href="career.php">Career</a></li>
-            </ul>
-        </div>
-
-        <div class="row">
-            Copyright © 2021 - All rights reserved || Designed By:Anshu Anand
-        </div>
-    </div>
-
+    <?php
+    include "foooter.php";
+    ?>
     <script src="scripts/javascript.js"></script>
 </body>
 

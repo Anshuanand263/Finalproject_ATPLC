@@ -8,9 +8,9 @@
     <title>Services </title>
     <style>
         body {
-            background-image: url('https://th.bing.com/th/id/OIP.H0Nbz8D-F50XbECSKgEhjwHaDA?w=324&h=142&c=7&r=0&o=5&pid=1.7');
+            /* background-image: url('https://th.bing.com/th/id/OIP.H0Nbz8D-F50XbECSKgEhjwHaDA?w=324&h=142&c=7&r=0&o=5&pid=1.7'); */
             background-size: cover;
-            color: white;
+            color: black;
         }
 
         .main2 {
@@ -25,7 +25,7 @@
             border: 3px solid rgb(245, 245, 245);
             margin: 5%;
             padding: 15px;
-
+            border-radius: 10px;
         }
 
         .main2 .card div {
@@ -38,7 +38,7 @@
 
         img {
             width: 100%;
-
+            border-radius: 10px;
 
 
         }
@@ -99,7 +99,9 @@
         </div>
 
     </div>
-
+    <?php
+    include "foooter.php";
+    ?>
 </body>
 
 </html>
