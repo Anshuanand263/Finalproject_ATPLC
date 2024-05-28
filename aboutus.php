@@ -96,8 +96,7 @@
                     <li><a href=""><i class="fa fa-facebook-f"></i></a>
                     </li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://instagram.com/anshu_romeo?igshid=ZDdkNTZiNTM="><i
-                                class="fa fa-instagram"></i></a>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a>
                     </li>
                     <li><a href="https://www.linkedin.com/in/anshu-anand-30526922b"><i class="fa fa-linkedin"></i></a>
                     </li>
